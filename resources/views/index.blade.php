@@ -1,4 +1,14 @@
 @include("home")
+
+<div class='ripple-background'>
+  <div class='circle xxlarge shade1'></div>
+  <div class='circle xlarge shade2'></div>
+  <div class='circle large shade3'></div>
+  <div class='circle mediun shade4'></div>
+  <div class='circle small shade5'></div>
+
+
+
   <h1 class="mt-3 text-danger text-center">Trains</h1>
 <div class="row g-5 p-5">
   @foreach ($trains as $train)
@@ -18,4 +28,6 @@
     </div>
   </div>
   @endforeach
+</div>
+
 </div>
